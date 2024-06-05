@@ -1,0 +1,55 @@
+@Restful_API_Test_HostAddress = http://localhost:5231
+
+
+
+GET {{Restful_API_Test_HostAddress}}/api/order/1
+Accept: application/json
+
+###
+
+POST {{Restful_API_Test_HostAddress}}/api/order
+Content-Type: application/json
+
+{
+  "id": 10,
+  "content": {
+    "title": "湖光門市 維修案",
+    "reporterDescription": "自動門故障",
+    "maintenanceDescription": ""
+  },
+  "status": 1,
+  "confirmed": {
+    "reporterConfimed": false,
+    "maintenanceConfirmed": false,
+    "headquartersConfirmed": false
+  },
+  "createdDate": "2024-06-05T08:48:07.909Z",
+  "completedDate": null
+}
+
+###
+
+PUT {{Restful_API_Test_HostAddress}}/api/order/1
+Content-Type: application/json
+
+{
+    "Id": 1,
+    "Content": {
+        "Title": "瑞鑽門市 維修案",
+        "ReporterDescription": "冷藏貨櫃故障",
+        "MaintenanceDescription": ""
+    },
+    "Status": 5,
+    "Confirmed": {
+        "ReporterConfimed": true,
+        "MaintenanceConfirmed": true,
+        "HeadquartersConfirmed": true
+    },
+    "CreatedDate": "2024-06-05T08:35:23.450Z",
+    "CompletedDate": "2024-06-15T08:35:23.450Z"
+}
+
+###
+
+DELETE {{Restful_API_Test_HostAddress}}/api/order/10
+Content-Type: application/json

@@ -1,0 +1,97 @@
+[
+  {
+    "Id": 1,
+    "Content": {
+      "Title": "瑞鑽門市 維修案",
+      "ReporterDescription": "冷藏貨櫃故障",
+      "MaintenanceDescription": null
+    },
+    "Status": 1,
+    "Confirmed": {
+      "ReporterConfimed": false,
+      "MaintenanceConfirmed": false,
+      "HeadquartersConfirmed": false
+    },
+    "CreatedDate": "2024-06-05T08:48:07.909Z",
+    "CompletedDate": null
+  },
+  {
+    "Id": 2,
+    "Content": {
+      "Title": "里昂門市 維修案",
+      "ReporterDescription": "1 號咖啡機故障",
+      "MaintenanceDescription": null
+    },
+    "Status": 4,
+    "Confirmed": {
+      "ReporterConfimed": true,
+      "MaintenanceConfirmed": true,
+      "HeadquartersConfirmed": false
+    },
+    "CreatedDate": "2024-06-05T08:48:07.909Z",
+    "CompletedDate": null
+  },
+  {
+    "Id": 3,
+    "Content": {
+      "Title": "洲子門市 採購案",
+      "ReporterDescription": "因業務需求，需採購新的冷藏貨櫃",
+      "MaintenanceDescription": null
+    },
+    "Confirmed": {
+      "ReporterConfimed": true,
+      "MaintenanceConfirmed": true,
+      "HeadquartersConfirmed": true
+    },
+    "CreatedDate": "2024-06-05T08:48:07.909Z",
+    "CompletedDate": null
+  },
+  {
+    "Id": 4,
+    "Content": {
+      "Title": "瑞東門市 維修案",
+      "ReporterDescription": "A 型貨架因地震倒塌損毀",
+      "MaintenanceDescription": null
+    },
+    "Status": 2,
+    "Confirmed": {
+      "ReporterConfimed": false,
+      "MaintenanceConfirmed": false,
+      "HeadquartersConfirmed": false
+    },
+    "CreatedDate": "2024-06-05T08:48:07.909Z",
+    "CompletedDate": null
+  },
+  {
+    "Id": 5,
+    "Content": {
+      "Title": "瑞和門市 維修案",
+      "ReporterDescription": "冷氣機故障",
+      "MaintenanceDescription": "因電路系統問題，該案轉接給電路相關維修商"
+    },
+    "Status": 3,
+    "Confirmed": {
+      "ReporterConfimed": false,
+      "MaintenanceConfirmed": false,
+      "HeadquartersConfirmed": false
+    },
+    "CreatedDate": "2024-06-05T08:48:07.909Z",
+    "CompletedDate": null
+  },
+  {
+    "Id": 6,
+    "Content": {
+      "Title": "麗安門市 維修案",
+      "ReporterDescription": "1、3 號咖啡機故障",
+      "MaintenanceDescription": null
+    },
+    "Status": 4,
+    "Confirmed": {
+      "ReporterConfimed": false,
+      "MaintenanceConfirmed": true,
+      "HeadquartersConfirmed": false
+    },
+    "CreatedDate": "2024-06-05T08:48:07.909Z",
+    "CompletedDate": null
+  }
+]
